@@ -1,0 +1,105 @@
+/* Task 1 Basic box model pratice */
+.container {
+    width: 500%;
+    height: 300%;
+    background-color: lightgray;
+    
+    padding: 20px;
+  }
+  .content {
+    width: 400px;
+      height: 200px;
+    margin: 0 auto;
+    
+    background-color: white;
+  }
+  /* Task 2 margin and border pratice */
+  .container2{
+      width: 500%;
+    height: 300%;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-style: dashed; 
+    border-color: black;
+    border-width: 20px;
+    padding: 20px;
+    
+  }
+  .content2 {
+    width: 400px;
+      height: 200px;
+    margin: 0 auto;
+    margin: 20px;
+    background-color: white;
+  }
+  /* Task 3 padding and overflowing */
+  .container3{
+      width: 500%;
+    height: 300%;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-style: dashed; 
+    border-color: rgb(35, 16, 16);
+    border-width: 20px;
+    padding: 40px;
+    
+  }
+  
+  .content3 {
+    width: 400px;
+      height: 200px;
+    margin: 0 auto;
+    margin: 20px;
+    background-color: white;
+    overflow: scroll;
+  }
+  {
+      position: relatve;
+      width: relative;
+      
+
+}
+
+.container4 {
+  position: relative;
+
+}
+ /* Task 4 positioning pratice */
+.absolute {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 1px solid;
+}
+
+.relative {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 1px solid black;
+}
+.container4 {
+  position: relative;
+}
+.float-left{
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 1px solid ;
+
+}
+.float-right {
+  float: right;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 1px solid ;
+}
