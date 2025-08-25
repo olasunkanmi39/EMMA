@@ -1,0 +1,23 @@
+body {
+  background-color: #610e0e;
+  font-family: Arial, sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h3{
+color: white;
+}
+p{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px ;
+    margin: 0 20px 0 20px ;
+}
+.tech{
+    margin: 0 20px 0 20px;
+    text-align: justify;
+    font-size: 20px;
+}

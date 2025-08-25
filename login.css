@@ -1,0 +1,23 @@
+input[type="text"] {
+  width: 20%;
+  padding: 1px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  body {
+  background-color: #610e0e;
+  font-family: Arial, sans-serif;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+form{
+    color: white;
+}
