@@ -121,11 +121,12 @@ h1{
     position: fixed;
     bottom: 0;
     left: 0;
+    justify-content: center;
 }
 .nav-content2{
     align-items: center;
     display: flex;
-    margin-left: 800px;
+    margin-left: 80px;
     
 }
 .nav-content2 a {
@@ -136,4 +137,5 @@ margin-left: 20px;
 font-size: small;
 padding-left: 10px;
 font-weight: 300px;
+
 }
