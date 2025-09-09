@@ -1,0 +1,56 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <h1>My TO -DO List</h1>
+        <input id="new-task" type="text" placeholder="Add a task">
+        <button id="add-button">Add</button>
+        <button id="clear-button">clear</button>
+        <ul id="task-list"></ul>
+    </div>
+    <script>
+        // select element
+        const newTaskInput = document.getElementById("new-task")
+        const addButton = document.getElementById("add-button")
+        const clearButton = document.getElementById("clear-button")
+        const taskList = document.getElementById("task-list")
+
+
+        //Add tasks
+        addButton.addEventListener("click", () => {
+            const taskText = newTaskInput.value
+                
+            const taskItem = document.createElement("li")
+            taskItem.textContent = taskText
+
+            taskList.append(taskItem)
+            newTaskInput.value = ""
+        })
+
+        // Marks tasks as completed
+         taskList.addEventListener("click", (event) => {
+            if(event.target.tagName === "LI"){
+                event.target.classList.toggle("completed")
+            }
+        })
+
+
+        //remove comleted tasks
+         clearButton.addEventListener("click", () => {
+         const completedTasks = document.querySelectorAll(".comleted")
+         completedTasks.forEach((task) => {
+            task.remove()
+            })
+         })
+       
+    </script>
+</body>
+
+</html> 
